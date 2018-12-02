@@ -5,11 +5,61 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+            integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+            crossorigin="anonymous"></script>
+            
+            <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     <title>Document</title>
 </head>
-<body>
-    
 
-    <script src="assets/js/main.js"></script>
+<body>
+    <div id="splashscreen">
+        <div class="splashBox"> 
+            <img src="https://media0.giphy.com/avatars/wheeloffortune/4Qxgn49y7nzh.gif" />
+            <img src="https://www.logolynx.com/images/logolynx/18/18a7f0d9ec5acadb9237370bfb37b32b.png" />
+            <!-- <h1>Wheel of Fortune Trivia!</h1> -->
+            <hr />
+            <p>You have 60 seconds to guess 10 Triva questions.</p>
+            <br />
+            <button type="button" id="start-btn" class="btn btn-primary black-background white">Play Now</button>
+        </div>
+    </div>
+
+    <div id="answerScreen">
+        <div class="splashBox2">
+            <h2>Lets see how you did</h2>
+            <hr />
+            <p id="correctScreen">Correct Answers: </p>
+            <p id="wrongScreen">Wrong Answers: </p>
+        </div>
+    </div>
+
+
+    <div id="timesUp">
+        <div class="wrongBox">
+            <h2 class="up">Times Up!</h2>
+            <hr />
+            <p>Here's youre score:</p>
+            <p id="correctTimesUp">Correct Answers: </p>
+            <p id="wrongTimesUp">Wrong Answers: </p>
+        </div>
+    </div>
+
+    <div class="container">
+        <header>Nike Trivia!</header>
+        <div class="row timeRemain">Time Remaining:
+            <div id="time-remain">60</div>
+        </div>
+
+        <div class="questions">
+            <button type="button" class="btn btn-primary black-background white" id="sub-but">Submit</button>
+            <!-- end equestions-->
+        </div>
+
+        <!-- Main Container-->
+    </div>
+    <script src="assets/js/main.js "></script>
 </body>
+
 </html>
