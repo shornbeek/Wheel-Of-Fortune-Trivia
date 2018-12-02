@@ -18,73 +18,73 @@ Score includes: time spent, answers correct, and answers wrong */
 // --------------------------------------------------------------- 
 
 var questions = [{
-    ques: "When was the first Air Max made?",
-    ans: ["2000", "1987", "1995", "1988"],
+    ques: "There is only on Wheel, how much does it weigh? ",
+    ans: ["2400 lbs", "9100 lbs", "1800 lbs", "4800 lbs"],
     name: "firstAirmax",
-    correct: "1987",
+    correct: "2400 lbs",
     divClass: ".firstAirmax"
 },
 {
-    ques: "Nike paid design student, Carolyn Davison, how much for their Swoosh Logo?",
-    ans: ["$1000", "$13", "$100", "$35"],
+    ques: "How many letters on the puzzle board?",
+    ans: ["52", "54", "62", "48"],
     name: "swoosh",
-    correct: "$35",
+    correct: "52",
     divClass: ".swoosh"
 },
 {
-    ques: "What was the first clothing brand to partner with Nike?",
-    ans: ["Patta", "Undefeated", "Stussy", "Diamond Supply Co."],
+    ques: "What is the first letter Vanna ever turned on the puzzleboard?",
+    ans: ["T", "P", "R", "S"],
     name: "colab",
-    correct: "Stussy",
+    correct: "T",
     divClass: ".colab"
 },
 {
-    ques: "Who was Nike's first professional athlete endorser?",
-    ans: ["John McEnroe", "Michael Jordan", "Ilie Nastase", "Steve Prefontaine"],
+    ques: "How many envelopes are in the Bonus Wheel?",
+    ans: ["26", "24", "22", "20"],
     name: "endorser",
-    correct: "Ilie Nastase",
+    correct: "24",
     divClass: ".endorser"
 },
 {
-    ques: "When was the first Air Force 1 made?",
-    ans: ["1982", "1983", "1984", "1985"],
+    ques: "Has Vanna White has never worn the same dress twice?",
+    ans: ["Yes", "No",],
     name: "firstForce",
-    correct: "1982",
+    correct: "No",
     divClass: ".firstForce"
 },
 {
-    ques: "Who designed the Air Max technology?",
-    ans: ["Phil Knight", "Bill Bowerman", "Tinker Hatfield", "Hidefumi Hommyo"],
+    ques: "What was Wheel of Fortune originally called?",
+    ans: ["Prizes Wild", "Prize Island ", "Wheel of Luck", "Shoppers Bazaar"],
     name: "airMaxDesigner",
-    correct: "Tinker Hatfield",
+    correct: "Shoppers Bazaar",
     divClass: ".airMaxDesigner"
 },
 {
-    ques: "When was the first Air Jordan 1's released to the public?",
-    ans: ["2000", "1987", "1995", "1985"],
+    ques: "What lot is Wheel of Fortune Filmed?",
+    ans: ["Universal Studios", "Sony Studios", "CBS Studios", "Paramount"],
     name: "jordan",
-    correct: "1985",
+    correct: "Sony Studios",
     divClass: ".jordan"
 },
 {
-    ques: "Nike's first sneaker design goes under what name today?",
-    ans: ["Air Max 1", " Cortez", "Structure Triax", "Air Force 1"],
+    ques: "What year was the Electronic Puzzle board introduced?",
+    ans: ["1997", " 1992", "1994", "1999"],
     name: "firstDesign",
     correct: "Cortez",
     divClass: ".firstDesign"
 },
 {
-    ques: "Which state was Nike's first retail space was opened in?",
-    ans: ["Oregon", "New York", "California", "Florida"],
+    ques: "Who is the host of Wheel of Fortune?",
+    ans: ["Alex Trebek", "Regis Philbin", "Pat Sajak", "Bob Barker"],
     name: "retailStore",
-    correct: "California",
+    correct: "Pat Sajak",
     divClass: ".retailStore"
 },
 {
-    ques: "Nike was originally a distribution company for which brand?",
-    ans: ["Adidas", "New Balance", "Saucony", "Onitsuka Tiger"],
+    ques: "Who Created Wheel of Fortune?",
+    ans: ["Harry Friedman", "Ted Turner", "Merv Griffin", "Bob Hope"],
     name: "distribution",
-    correct: "Onitsuka Tiger",
+    correct: "Merv Griffin",
     divClass: ".distribution"
 }
 ] // end questions object
