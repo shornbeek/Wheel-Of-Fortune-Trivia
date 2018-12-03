@@ -1,6 +1,8 @@
 
 //Questions Object
 
+
+
 var questions = [{
     topic: "There is only on Wheel, how much does it weigh? ",
     answers: ["2400 lbs", "9100 lbs", "1800 lbs", "4800 lbs"],
@@ -73,17 +75,32 @@ var questions = [{
 }
 ] 
 
+//  // Gets Link for Theme Song
+//  var audioElement = document.createElement("audio");
+//  audioElement.setAttribute("src", "assets/captainplanet24.mp3");
+
+//  // Theme Button
+//  $(".theme-button").on("click", function() {
+//    audioElement.play();
+//  });
+//  $(".pause-button").on("click", function() {
+//    audioElement.pause();
+//  });
 
 
 var labels = ["first", "second", "third", "forth"];
 
 // Game start function
 var startGame = $("#start-btn").on('click', function() {
-    $(this).scrollTop(0);
+    
+$(this).scrollTop(0);
 $(this).parent().hide();
 $('.container').show();
 countdown(60);
 questionDisplay();
+
+// $.playSound('src','assets/images/wof-timer4.wav');
+document.getElementById('yourAudioTag').play();
 
 });
 
@@ -100,7 +117,7 @@ for (var i = 0; i <= 3; i++) {
     $(questions[t].divClass).append('<input type="radio"  name="' + questions[t].name + '" value="' + questions[t].answers[i] + '"/><label for="' + labels[i] + '">' + questions[t].answers[i] + '</label>');
 }
 $('.questions').prepend('<hr />');
-}
+ }
 }
 
 
@@ -142,11 +159,11 @@ if (seconds <= 0) {
 
 // click event for submit button to stop timer
 $('#sub-but').on('click', function() {
-    $(this).scrollTop(0);
+    $(document).scrollTop(0);
 clearInterval(timer);
 
 })
-}; // end countdown
+}; 
 
 
 // function to grade quiz once submit button is clicked
