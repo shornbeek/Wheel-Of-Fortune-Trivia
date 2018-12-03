@@ -47,17 +47,18 @@ h1 {
 
 img {
     width: 80%;
-    padding-right: 10%;
-    padding-left: 10%;
-    padding-top: 10%;
+    padding-right: 5%;
+    padding-left: 5%;
+    
     
 }
 
 #logo {
     width: 50%;
-    padding-right: 10%;
-    padding-left: 10%;
+    padding-right: 5%;
+    padding-left: 5%;
     margin-bottom: 20px;
+    padding-top: 10%;
 }
 
 .splashBox {
@@ -161,14 +162,14 @@ header {
     padding: 20px;
     padding-right: 40px;
     padding-left: 40px;
-    margin-bottom: 20px;
+    margin: 0 10px 20px 10px;
+    font-size: 14px;
     background: -webkit-linear-gradient(left, #8f6B29, #FDE08D, #DF9F28);
 	background: linear-gradient(left, #8f6B29, #FDE08D, #DF9F28);
     /* border: 1px solid black; */
     position: relative;
     border-radius: 2px;
     font-family: 'Montserrat', sans-serif;
-    font-size: 16px;
     font-weight: bold;
     color: white;
    
@@ -186,6 +187,20 @@ hr {
 
 iframe {
  margin-bottom: 10px;
- height: 240px;
+ height: 85%;
  width: 90%;
+}
+
+#vanna {
+    width: 80%;
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-bottom: 10%;
+}
+
+p {
+    font-family: 'Biryani', sans-serif;
+    /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
+    font-weight: bold;
+
 }
