@@ -79,14 +79,17 @@ var labels = ["first", "second", "third", "forth"];
 
 // Game start function
 var startGame = $("#start-btn").on('click', function() {
+    $(this).scrollTop(0);
 $(this).parent().hide();
 $('.container').show();
 countdown(60);
 questionDisplay();
+
 });
 
 // Questions Function
 var questionDisplay = function() {
+    $(this).scrollTop(0);
 $(".questions :not('#sub-but')").empty();
 // loops through the 10 questions 
 for (var t = 0; t < 10; t++) {
@@ -139,7 +142,9 @@ if (seconds <= 0) {
 
 // click event for submit button to stop timer
 $('#sub-but').on('click', function() {
+    $(this).scrollTop(0);
 clearInterval(timer);
+
 })
 }; // end countdown
 
