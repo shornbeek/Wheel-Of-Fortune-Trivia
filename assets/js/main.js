@@ -87,6 +87,7 @@ var questions = [{
 //    audioElement.pause();
 //  });
 
+// document.getElementById('yourAudioTag').play();
 
 var labels = ["first", "second", "third", "forth"];
 
@@ -100,7 +101,6 @@ countdown(60);
 questionDisplay();
 
 // $.playSound('src','assets/images/wof-timer4.wav');
-document.getElementById('yourAudioTag').play();
 
 });
 
